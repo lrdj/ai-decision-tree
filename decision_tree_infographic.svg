@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+  <style>
+    .box { fill: #f9f9f9; stroke: #333; stroke-width: 1.5px; }
+    .container { fill: #f1f1f1; stroke: #333; stroke-width: 1.5px; stroke-dasharray:5,5; }
+    .text-title { font: bold 14px sans-serif; fill: #111; }
+    .text { font: 12px sans-serif; fill: #111; }
+    .arrow { fill: none; stroke: #333; stroke-width: 1.5px; marker-end: url(#arrow); }
+  </style>
+
+  <!-- Step 1 -->
+  <rect x="20" y="70" width="120" height="60" class="box"/>
+  <text x="80" y="95" text-anchor="middle" class="text-title">Step 1</text>
+  <text x="80" y="112" text-anchor="middle" class="text">Org &amp; Business</text>
+  <text x="80" y="127" text-anchor="middle" class="text">Readiness</text>
+
+  <!-- Step 2 -->
+  <rect x="160" y="70" width="120" height="60" class="box"/>
+  <text x="220" y="95" text-anchor="middle" class="text-title">Step 2</text>
+  <text x="220" y="112" text-anchor="middle" class="text">Compliance &amp;</text>
+  <text x="220" y="127" text-anchor="middle" class="text">Security</text>
+
+  <!-- Steps 3–7 container -->
+  <rect x="300" y="20" width="240" height="160" class="container"/>
+  <text x="420" y="45" text-anchor="middle" class="text-title">Steps 3–7</text>
+  <text x="420" y="65" text-anchor="middle" class="text">Flows, Guardrails,</text>
+  <text x="420" y="80" text-anchor="middle" class="text">Persona, State &amp;</text>
+  <text x="420" y="95" text-anchor="middle" class="text">Handover</text>
+  <text x="420" y="110" text-anchor="middle" class="text">(parallel workstreams)</text>
+
+  <!-- Step 8 -->
+  <rect x="580" y="70" width="220" height="60" class="box"/>
+  <text x="690" y="95" text-anchor="middle" class="text-title">Step 8</text>
+  <text x="690" y="112" text-anchor="middle" class="text">Pilot &amp; Continuous</text>
+  <text x="690" y="127" text-anchor="middle" class="text">Improvement</text>
+
+  <!-- Arrows -->
+  <line x1="140" y1="100" x2="160" y2="100" class="arrow"/>
+  <line x1="280" y1="100" x2="300" y2="100" class="arrow"/>
+  <line x1="540" y1="100" x2="580" y2="100" class="arrow"/>
+  <path d="M800,100 C800,250 500,250 500,180 L540,180" class="arrow"/>
+
+  <!-- Legend -->
+  <rect x="20" y="160" width="780" height="170" fill="#fff" stroke="none"/>
+  <text x="25" y="180" class="text-title">Legend:</text>
+  <text x="25" y="200" class="text">• Org &amp; Business Readiness: Business case, KPIs, exec sponsorship</text>
+  <text x="25" y="220" class="text">• Compliance &amp; Security: Privacy impact, regulatory &amp; legal sign-off</text>
+  <text x="25" y="240" class="text">• Steps 3–7: Define Q&A flows, harm guardrails, persona, state, human fallback</text>
+  <text x="25" y="260" class="text">• Pilot &amp; CI: Launch pilot, dashboards (CSAT, fallback rate), iterate</text>
+  <text x="25" y="280" class="text">• Arrows: sequence; curved = feedback loop back to steps 3–7</text>
+</svg>
