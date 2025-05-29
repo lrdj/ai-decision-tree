@@ -1,0 +1,34 @@
+(begins)
+
+START
+  │
+  ├──> Are the user questions mostly known and predictable?
+  │     │
+  │     ├── YES
+  │     │   ├─ Is the content sensitive, regulated, or brand-critical?
+  │     │   │     ├─ YES → Use INTENT TABLES + PRESET TOPICS + RAG
+  │     │   │     └─ NO  → Use BUTTONS or SUGGESTION CHIPS for speed
+  │     │
+  │     └── NO
+  │           ├─ Do we still need to guarantee factual accuracy?
+  │           │     ├─ YES → Use RAG to ground open answers in internal docs
+  │           │     └─ NO  → Allow GPT to generate open answers (with fallback)
+  │
+  └──> Is there a risk of the bot responding to harmful or off-limits topics?
+        │
+        ├── YES → Add ALERT WORDS + MODERATION layer on inputs/outputs
+        └── NO  → Light guardrails (optional fallback logic, tone guidance)
+
+Then ask:
+  └──> Do we want the bot to have a distinctive tone or persona?
+      ├─ YES → Use custom prompts with persona + examples
+      └─ NO  → Default neutral tone with guardrails
+
+  └──> Will the bot handle multi-step interactions (e.g. onboarding)?
+      ├─ YES → Add MEMORY HANDLING or scripted chaining
+      └─ NO  → Stateless answers are sufficient
+
+(ends)
+
+
+

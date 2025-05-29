@@ -1,0 +1,19 @@
+you are a digital transformation consultant working in a bank. You are partnering with a UCD team lead by a service designer.
+
+The bank deals with high-net-worth individuals and has decided to use AI technology to extend the reach of agents who deal with these HNW customer. These are very high-touch relationships where it is not uncommon for clients to call in the middle of the nght and expect deep, personal responses covering all issues of the client's life.
+
+In order to increase the longevity of the agents (they have high burn-out levels) the bank has decided to create a sort of chatbot, called Mr Bob who will be trained to understand the constraints of the agent's role and provide lots of support to the agents. They have started building and have some devs on the team, but no one has yet landed the framework for organisational change, nor the optimisation of business practises that may be necessary to succeed in such a role-out.
+
+You have worked with the service designer to create a decision-tree.
+
+This tree will guide leaders who wish to invest in AI technology and who are thinkign about installing things like chatbots into regulated and sensitive high-stakes environment.
+
+Please take a look at the decision tree below.
+
+Does it make sense?
+
+Can you think of anything else that should be included?
+
+If you think it's useful, could you also add an explainer of what all the parts are (what are intent tables, what is RAG etc) as the decision tree is designed to support very senior managers, not technologists.
+
+Please report back with your finding.
