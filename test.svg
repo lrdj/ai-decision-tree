@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="879" height="600">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#004d40"/>
+    </marker>
+  </defs>
+  <polygon points="396.41,50.00 483.01,0.00 396.41,-50.00 309.81,0.00" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="396.41" y="-5.00" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#004d40">
+    1: Org &amp; Business Readiness
+  </text>
+  <line x1="439.71" y1="25.00" x2="439.71" y2="75.00" stroke="#004d40" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="483.01,100.00 569.62,50.00 483.01,0.00 396.41,50.00" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="483.01" y="45.00" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#004d40">
+    2: Compliance &amp; Security
+  </text>
+  <line x1="526.31" y1="75.00" x2="526.31" y2="125.00" stroke="#004d40" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="569.62,150.00 656.22,100.00 569.62,50.00 483.01,100.00" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="569.62" y="95.00" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#004d40">
+    3: Known &amp; Pred. Qs
+  </text>
+  <line x1="612.92" y1="125.00" x2="612.92" y2="175.00" stroke="#004d40" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="656.22,200.00 742.82,150.00 656.22,100.00 569.62,150.00" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="656.22" y="145.00" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#004d40">
+    4: Harm &amp; Off-limits
+  </text>
+  <line x1="699.52" y1="175.00" x2="699.52" y2="225.00" stroke="#004d40" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="742.82,250.00 829.42,200.00 742.82,150.00 656.22,200.00" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="742.82" y="195.00" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#004d40">
+    5: Tone &amp; Persona
+  </text>
+  <line x1="786.12" y1="225.00" x2="786.12" y2="275.00" stroke="#004d40" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="829.42,300.00 916.03,250.00 829.42,200.00 742.82,250.00" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="829.42" y="245.00" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#004d40">
+    6: Multi-step/Stateful
+  </text>
+  <line x1="872.72" y1="275.00" x2="872.72" y2="325.00" stroke="#004d40" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="916.03,350.00 1002.63,300.00 916.03,250.00 829.42,300.00" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="916.03" y="295.00" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#004d40">
+    7: Human-in-Loop
+  </text>
+  <line x1="959.33" y1="325.00" x2="959.33" y2="375.00" stroke="#004d40" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="1002.63,400.00 1089.23,350.00 1002.63,300.00 916.03,350.00" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="1002.63" y="345.00" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#004d40">
+    8: Pilot &amp; CI
+  </text>
+</svg>

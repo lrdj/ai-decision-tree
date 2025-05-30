@@ -50,7 +50,7 @@
   <text x="25" y="180" class="text-title">Legend:</text>
   <text x="25" y="200" class="text">• Org &amp; Business Readiness: Business case, KPIs, exec sponsorship</text>
   <text x="25" y="220" class="text">• Compliance &amp; Security: Privacy impact, regulatory &amp; legal sign-off</text>
-  <text x="25" y="240" class="text">• Steps 3–7: Define Q&A flows, harm guardrails, persona, state, human fallback</text>
+  <text x="25" y="240" class="text">• Steps 3–7: Define Q&amp;A flows, harm guardrails, persona, state, human fallback</text>
   <text x="25" y="260" class="text">• Pilot &amp; CI: Launch pilot, dashboards (CSAT, fallback rate), iterate</text>
   <text x="25" y="280" class="text">• Arrows: sequence; curved = feedback loop back to steps 3–7</text>
 </svg>
